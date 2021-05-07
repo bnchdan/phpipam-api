@@ -22,6 +22,6 @@ echo $token
 subnet='12.0.0.0'
 mask='24'
 section_id='18'
-out=$(curl -X POST -s -k 'https://'$link'/api/'$app_id'/subnets/?subnet='$subnet'&mask='$mask'&sectionId='$section_id'  --header "token: $token" )
+out=$(curl -X POST -s -k 'https://'$link'/api/'$app_id'/subnets/?subnet='$subnet'&mask='$mask'&sectionId='$section_id  --header "token: $token" )
 
 echo $out 
