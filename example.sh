@@ -4,7 +4,7 @@
 link='127.0.0.1'
 user='user'
 pass='password'
-#Go to settings in phpipam GUI and enable API module, than go to settings > API and create new API App.
+#Go to settings in phpipam GUI and enable API module, than go to settings > API and create new API App( App security - SSL with User token )
 app_id="test" 
 
 # Login & Create Session
