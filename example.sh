@@ -16,7 +16,7 @@ token=$(echo $token | awk -F '":{"' '{print $2}' | awk -F '":"' '{print $2}' | a
 echo "token:"
 echo $token
 
-# out=$(curl -X GET -s -k --user Admin:admin123 https://192.168.110.45/phpipam/api/test/addresses --header "token: $token")
+
 
 #create a new subnet
 subnet='12.0.0.0'
